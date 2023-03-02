@@ -7,9 +7,6 @@ Product Details page
 @section('content')
 
 
-
-
-
     <!-- Page Header Start -->
     <div class="container-fluid bg-secondary mb-5">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
@@ -80,13 +77,10 @@ Product Details page
                 </div>
 
 
-                <h3><input type="text" id="price" name="newprice" value="&#x20B9&nbsp;{{$rd->newprice}}" style="border:none; width:20%;"> &nbsp;&nbsp;<del>&#x20B9&nbsp;{{$rd->oldprice}}</del></h3>
+                <h3>&#x20B9&nbsp;<input type="text" id="price" name="newprice" value="{{$rd->newprice}}" style="border:none; width:20%;"> &nbsp;&nbsp;<del>&#x20B9&nbsp;{{$rd->oldprice}}</del></h3>
 
 
                 <p>{{$rd->productname}}</p>
-
-
-                <h3>Total : <label id="total">&#x20B9&nbsp;{{$rd->newprice}}</label></h3>
 
 
                 <div class="d-flex align-items-center mb-4 pt-2">
@@ -211,7 +205,7 @@ Product Details page
         </div>
     </div>
     <!-- Products End -->
-    <!-- <script src="{{asset('assets/js/total.js')}}"></script> -->
+
 @endsection
 
     

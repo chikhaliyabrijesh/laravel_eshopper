@@ -38,18 +38,7 @@
 
 <!-- Customized Bootstrap Stylesheet -->
 <link href="{{asset('assets/css/style.css')}}" rel="stylesheet"> 
-<!-- <script src="{{asset('assets/js/total.js')}}"></script> -->
-<script>
-function subtot()
-    {
-        var p=document.getElementById("price").value;
-        var q=document.getElementById("qty").value;
-        var t=p*q;
-    
-        document.getElementById("total").innerHTML=+t;
-    
-    }
-    </script>
+
 
 </head>
 <body>
@@ -163,13 +152,13 @@ function subtot()
                             <a href="/shop" class="nav-item nav-link">Shop</a>
                             <a href="/usergallary" class="nav-item nav-link">Gallary</a>
                             <!-- <a href="/productdetails" class="nav-item nav-link">Product Details</a> -->
-                            <div class="nav-item dropdown">
+                            <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="/showcart" class="dropdown-item">Show Cart</a>
                                     <a href="#" class="dropdown-item">Checkout</a>
                                 </div>
-                            </div>
+                            </div> -->
                             <a href="/contact" class="nav-item nav-link">Contact</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account</a>

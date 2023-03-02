@@ -47,7 +47,7 @@ Route::get("/",[DetailsController::class,"index"]);
 Route::get("/productdetails/{id}",[DetailsController::class,"show"]);
 
 //add to cart routing
-Route::get("/",[CartController::class,"index"]);
+Route::get("productdetails",[CartController::class,"index"]);
 Route::post("/productdetails/{id}",[CartController::class,"store"]);
 Route::get("/showcart",[CartController::class,"show"]);
 Route::get("/showcart/{id}",[CartController::class,"destroy"]);
